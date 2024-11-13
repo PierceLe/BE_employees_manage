@@ -5,7 +5,7 @@ services:
     image: mysql:8
     environment:
       MYSQL_DATABASE: "manager-user"
-      MYSQL_ROOT_PASSWORD: "hoangdz"
+      MYSQL_ROOT_PASSWORD: "chaudz"
     ports:
       - 3306:3306
     restart: always
